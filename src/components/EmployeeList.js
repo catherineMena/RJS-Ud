@@ -22,12 +22,7 @@ export default function EmployeeList() {
       age: "12",
     },
 
-    {
-      name: "daysi",
-      gender: "mike",
-      country: "joe",
-      age: "12",
-    },
+   
   ];
   return (
     <div>
