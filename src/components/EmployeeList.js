@@ -10,7 +10,7 @@ export default function EmployeeList() {
       age: "12",
     },
     {
-      name: "daysi",
+      name: "catherine",
       gender: "mike",
       country: "joe",
       age: "12",
@@ -28,6 +28,7 @@ export default function EmployeeList() {
     <div>
       {employees.map((employee) => 
         <Employee 
+        key ={employee.name}
         name={employee.name} 
         gender={employee.gender} 
         country={ employee.country} 
