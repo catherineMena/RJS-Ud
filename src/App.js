@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+// import EmployeeList from './components/EmployeeList';
+import RegularStyleSheet from './components/RegularStyleSheet';
+import Inline from './components/inline';
 
-import EmployeeList from './components/EmployeeList';
 
 function App() {
   return (
@@ -20,9 +22,12 @@ function App() {
           Learn React
         </a>
       </header> */}
-
-      <EmployeeList/>
+{/* 
+      <EmployeeList/> */}
+{/* <RegularStyleSheet primary={true}/> */}
+<Inline/>
       </div>
+
   );
 }
 
