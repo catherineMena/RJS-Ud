@@ -3,7 +3,11 @@ import './App.css';
 // import EmployeeList from './components/EmployeeList';
 import RegularStyleSheet from './components/RegularStyleSheet';
 import Inline from './components/inline';
-
+import './appStyles.css';
+import moduleStyles from './components/myAppStyle.module.css';
+import FormInput from './components/formInput';
+import DemoFragment from './components/fragdemo/DemoFragment';
+import MyTable from './components/MyTable';
 
 function App() {
   return (
@@ -25,7 +29,15 @@ function App() {
 {/* 
       <EmployeeList/> */}
 {/* <RegularStyleSheet primary={true}/> */}
-<Inline/>
+{/* <Inline/>
+<h2 className='error'>Error!!</h2>
+<h2 className={moduleStyles.success}>Success</h2>
+<h2 className='error'> Error from inline</h2> */}
+{/* <FormInput/> */}
+{/* <DemoFragment/> */}
+
+<MyTable/>
+
       </div>
 
   );
