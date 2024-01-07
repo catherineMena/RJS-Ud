@@ -5,6 +5,8 @@ import Counter from './components/Counter';
 import Counter2 from './components/Counter2';
 import Counter3 from './components/Counter3';
 
+import HookState from './components/HookState';
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +27,10 @@ function App() {
 
       {/* <Counter/> */}
       {/* <Counter2/> */}
-      <Counter3/>
+      {/* <Counter3/> */}
+   
+   <HookState/>
+   
     </div>
   );
 }
